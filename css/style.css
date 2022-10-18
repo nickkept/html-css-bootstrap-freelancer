@@ -1,6 +1,9 @@
 li{
     list-style: none;
 }
+ul{
+    margin-bottom: 0.5rem;
+}
 nav{
     background-color: #2C3D50;
 }
@@ -48,12 +51,7 @@ section{
 .lightgreen-section{
     background-color: #1ABC9C;
 }
-.block-left{
-    padding-top: 1rem;
-}
-.block-right{
-    padding-top: 1rem;
-}
+
 .my-btn{
     color: white;
     border: 1px solid white;
@@ -72,4 +70,25 @@ section{
 
 textarea.my-form-control{
     min-height: 100px;
+}
+.st-footer-container{
+    background-color: #3B546D;
+}
+
+.st-footer-container a{
+    border-radius: 100%;
+    border: 1px solid white;
+    font-size: 1rem;
+    aspect-ratio: 1 / 1;
+    
+}
+
+
+.color-light-gr{
+    color:#1ABC9C;
+}
+.nd-footer{
+    color: white;
+    font-size: smaller;
+    background-color:#2C3D50 ;
 }
