@@ -1,10 +1,75 @@
 li{
     list-style: none;
 }
+nav{
+    background-color: #2C3D50;
+}
 a{
     text-decoration: none;
+    padding: 0 0.2rem;
+    color: white    ;
+}
+h1{
+    color: white;
 }
 
 section{
-    padding:  2rem 0;
+    padding: 2rem 0;
+}
+.img-fluid{
+    width: 20%;
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.star-container .star-line {
+    height: 3px;
+    border-radius: 1px;
+    flex-grow: 1;
+    background-color: white;
+}
+.star-container .star-line-black {
+    height: 3px;
+    border-radius: 1px;
+    flex-grow: 1;
+    background-color: black;
+}
+
+
+.star-container i {
+    margin: 0 1rem;
+}
+
+.lightgreen-section{
+    background-color: #1ABC9C;
+}
+.block-left{
+    padding-top: 1rem;
+}
+.block-right{
+    padding-top: 1rem;
+}
+.my-btn{
+    color: white;
+    border: 1px solid white;
+}
+.my-btn-green{
+    color: white;
+    background-color: #1ABC9C ;
+    border: 1px solid white;
+}
+.my-form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+textarea.my-form-control{
+    min-height: 100px;
 }
